@@ -1,0 +1,91 @@
+/*主体样式开始*/
+
+main .p2{
+    left: 610px;
+}
+/*表单*/
+main #form{ 
+    width: 1100px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: -70px;
+    font-family: "仿宋";
+    font-weight: bold;
+}
+main #form form{
+    width: 800px;
+    height: 500px;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 0% 5%;
+    padding-left: 21%;
+    line-height: 45px;
+    color: rgb(57, 65, 59);
+}
+main #form form span{
+    font-weight: normal;
+    color: red;
+}
+main #form form input:focus,textarea:focus{
+    border: none;
+    outline: 2px solid #5d5f5c ;
+}
+main #form form input,textarea{
+    border: 1px dashed rgb(11, 112, 16);
+}
+main #form form input[type="text"],input[type="email"]{
+    width: 80%;
+    height: 40px;
+    background-color: rgb(238, 241, 239);
+}
+main #form form input[type="submit"]{
+    width: 80%;
+    height: 40px;
+    margin-top: 25px;
+    background-color: rgb(223, 74, 74);
+    color: white;
+    border: none;
+    transition: all 0.2s;
+}
+main #form form input[type="submit"]:hover{
+    background-color: rgb(255, 0, 0);
+}
+main #form form textarea{
+    width: 80%;
+    height: 90px;
+    background-color: rgb(238, 241, 239);
+}
+/*手机号码格式号码提示*/
+main #mobile_prompt{
+    color: red;
+    position: absolute;
+    left: 81%;
+    top: 22.5%;
+}
+/*邮箱格式号码提示*/
+main #email_prompt{
+    width: 250px;
+    color: red;
+    position: absolute;
+    left: 81%;
+    top: 37%;
+}
+/*在线预约底部毛笔*/
+main .maobi2{
+    display: inline-block;
+    position: relative;
+    bottom: -180px;
+    left: 70%;
+    width: 120px;
+    transform: rotate(20deg);
+}
+/*毛笔动画*/
+@keyframes maobi2 {
+    0%{transform: translateX(300px) rotate(20deg);}
+    100%{transform: translateX(0) rotate(20deg);}
+}
+
+footer{
+    background-color: #6a8a87;
+}
